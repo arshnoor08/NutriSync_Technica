@@ -1,0 +1,124 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriSync</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>NutriSync</h1>
+        <p>Your go-to solution for post-workout meal suggestions tailored to your needs. 
+            Enter your workout details and ingredients to receive personalized meal ideas 
+            that help you recover faster and fuel your next session.</p>
+    </header>
+    
+    <section>
+        <h2>Get Your Personalized Meal Suggestions</h2>
+        <p>Fill in your workout type, the calories you burned, and list the ingredients you have. NutriSync will calculate the nutrients you need and provide meal ideas based on your available ingredients.</p>
+    </section>
+    <form id="inputForm">
+        <label for="workoutType">Workout Type:</label>
+        <input type="text" id="workoutType" name="workoutType" placeholder="e.g., Cardio, Strength" required>
+        <label for="caloriesBurned">Calories Burned:</label>
+        <input type="number" id="caloriesBurned" name="caloriesBurned" placeholder="Calories burned during workout" required>
+        <label for="ingredients">Available Ingredients (comma separated):</label>
+        <input type="text" id="ingredients" name="ingredients" placeholder="e.g., Chicken, Rice, Spinach" required>
+        <label for="allergies">Allergies:</label>
+        <input type="text" id="allergies" name="allergies" placeholder="Optional: e.g., Peanuts, Gluten">
+        <label for="physicalEffort">Physical Effort (in METs):</label>
+        <input type="text" id="physicalEffort" name="physicalEffort" placeholder="To be noted from Apple Fitness">
+        <button type="submit">Get Suggestions</button>
+    </form>
+    <br>
+    <div id="results" style="display: none;"></div>
+
+    <h2>Calculate Your Water Intake</h2>
+    <form id="waterForm">
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" name="weight" required>
+    <label for="height">Height (m):</label>
+    <input type="number" id="height" name="height" required>
+    <button id="calculateWaterBtn">Calculate Water Intake</button>
+    </form>
+    <br>
+    <p id="waterResults" style="display: none;"></p>
+    
+    <footer>
+        <p>Created by Team __ for Technica 2024. Stay healthy, stay hydrated!</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriSync</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Italiana&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="overlay">
+            <h1>NutriSync</h1>
+            <br>
+            <p>Don't know how to meet your dietary goals? We've got your back! <br> NutriSync is your go-to solution for post-workout meal suggestions tailored to your needs. </p>
+            <br>
+        </div>
+    </header>
+    
+    <section id="body_head">
+        <h2>Get Your Personalized Meal Suggestions</h2>
+        <br>
+        <p> Enter your workout details and ingredients to receive personalized meal ideas 
+            that help you recover faster and fuel your next session.</p>
+        <p>Fill in your workout type, the calories you burned, and list the ingredients you have. NutriSync will calculate the nutrients you need and provide meal ideas based on your available ingredients.</p>
+    </section>
+    <form id="inputForm">
+        <label for="workoutType">Workout Type:</label>
+        <input type="text" id="workoutType" name="workoutType" placeholder="e.g., Cardio, Strength" required>
+        <label for="caloriesBurned">Calories Burned:</label>
+        <input type="number" id="caloriesBurned" name="caloriesBurned" placeholder="Calories burned during workout" required>
+        <label for="ingredients">Available Ingredients (comma separated):</label>
+        <input type="text" id="ingredients" name="ingredients" placeholder="e.g., Chicken, Rice, Spinach" required>
+        <label for="allergies">Allergies:</label>
+        <input type="text" id="allergies" name="allergies" placeholder="Optional: e.g., Peanuts, Gluten">
+        <label for="physicalEffort">Physical Effort (in METs):</label>
+        <input type="text" id="physicalEffort" name="physicalEffort" placeholder="To be noted from Apple Fitness">
+        <button type="submit">Get Suggestions</button>
+    </form>
+    <br>
+    <div id="results" style="display: none;"></div>
+
+    <!-- <h2>Calculate Your Water Intake</h2>
+    <form id="waterForm">
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight" name="weight" required>
+    <label for="height">Height (m):</label>
+    <input type="number" id="height" name="height" required>
+    <button id="calculateWaterBtn">Calculate Water Intake</button>
+    </form>
+    <br>
+    <p id="waterResults" style="display: none;"></p> -->
+    
+    <footer>
+        <p>Stay healthy, stay hydrated!</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
